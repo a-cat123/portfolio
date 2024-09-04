@@ -1,0 +1,45 @@
+
+* {
+    font-family: Arial;
+    background-color: azure;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 5px;
+    list-style: none;
+}
+
+.nav-links li:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#profilbillede {
+    width: 300px;
+    height: auto;
+}
+
+summary:hover {
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+details {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer a:hover {
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
